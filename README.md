@@ -1,2 +1,1 @@
-# amdocs-coding-test
-amdocs-coding-test
+Amdocs coding test

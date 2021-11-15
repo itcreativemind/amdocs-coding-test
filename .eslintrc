@@ -2,6 +2,6 @@
   "extends": ["react-app", "plugin:prettier/recommended"],
   "rules": {
     "no-alert": 2,
-    "no-console": 2
+    "no-console": 0
   }
 }

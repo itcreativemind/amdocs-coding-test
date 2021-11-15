@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 10px 0;
+
+  &__input {
+    border: 1px solid #ffffff;
+    width: 50%;
+    padding: 15px;
+    background-color: #000000;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  &__add-button {
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    margin-left: 10px;
+    padding: 0 13px;
+    font-size: 50px;
+    color: #ffffff;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+}
+
+.filters {
+  border: 1px solid #333;
+  border-left: 20px solid #333;
+  max-width: 50%;
+  margin: 10px 0 20px;
+  padding: 0 5px 5px;
+
+  &__item {
+    display: inline-block;
+    margin: 5px 10px 0 0;
+  }
+}
+
+.todos {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 15px;
+
+  &__item {
+    margin: 8px 0;
+  }
+
+  &__checkbox {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+  }
+
+  &__delete-btn {
+    background: #ff0000;
+    border: 2px solid #ff0000;
+    margin-left: 10px;
+    padding: 1px 3px 0px 2px;
+    font-size: 9px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+    vertical-align: text-top;
+  }
+
+  &__item_checked {
+    color: #666666;
+    text-decoration: line-through;
+  }
+}
